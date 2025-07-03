@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Imaginify - AI Image Enhancer & Transformer
 
-## Getting Started
+**Imaginify** is a full-stack SaaS web application that allows users to upload, transform, and download images using powerful AI. Whether you're a designer, developer, or content creator, **Imaginify** makes it seamless to upscale, optimize, or stylize images in seconds — directly from your browser.
 
-First, run the development server:
+> “Unleash the power of AI on your images — intelligently.”
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖥️ Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 [Visit Imaginify Web App](https://imaginify-pro.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### ⚙️ Frontend
+- **Next.js 14 (App Router)**
+- **Tailwind CSS**
+- **Shadcn UI** & **Radix UI**
+- **React Context API**
+- **Typescript**
+- **Framer Motion**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⚙️ Backend
+- **Node.js + Express.js (API Routes in Next.js)**
+- **MongoDB with Mongoose**
+- **Clerk** for authentication
+- **Stripe** for payments
+- **Cloudinary** for image hosting & transformation
+- **Middleware** for API protection
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Upload and preview images in real-time  
+✅ Apply AI transformations: upscale, compress, enhance, stylize  
+✅ View transformed images instantly  
+✅ Download high-quality AI-processed images  
+✅ Free & paid plans with **credits system**  
+✅ Auth & onboarding using **Clerk**  
+✅ Stripe-powered **subscription and checkout**  
+✅ Dashboard to manage credits, history & billing  
+✅ Fully responsive and mobile-friendly  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
